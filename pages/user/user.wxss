@@ -1,0 +1,26 @@
+/* pages/user/user.wxss */
+
+.user_image {
+  height: 48px;
+  width: 48px;
+}
+
+.theme_title_block {
+  background-color: gray;
+  width: 96%;
+  border-bottom: 5px solid;
+  margin-bottom: 10px;
+}
+
+.theme_content {
+  font-size: 17px;
+  padding: 5px;
+}
+
+.theme_reply {
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  padding: 5px;
+}

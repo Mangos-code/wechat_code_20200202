@@ -1,0 +1,28 @@
+/* pages/list/list.wxss */
+.listbody{
+  /* border:2px solid; */
+  margin-bottom:10px;
+  padding: 5px;
+  border-bottom: 5px solid #EFEFF3;
+}
+.userimage{
+  height: 16px;
+  width: 16px;
+}
+.username{
+  font-size: 15px;
+  color: #888888;
+}
+.titlecontent{
+  font-size: 17px;
+  color: #353535;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.replynumnode{
+  font-size: 10px;
+  color: #888888;
+  margin-top: 2px;
+  display: flex;
+  justify-content: space-between;
+}

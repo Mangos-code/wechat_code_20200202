@@ -1,0 +1,36 @@
+/* pages/theme/theme.wxss */
+
+.theme_body {
+  padding: 10px;
+}
+
+.theme_title_block {
+  background-color: gray;
+  padding: 5px;
+}
+
+.theme_title {
+  font-size: 20px;
+}
+
+.theme_authur {
+  font-size: 10px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+
+.theme_content {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.theme_reply {
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.theme_remark {
+  margin-top: 10px;
+  color: #888;
+}

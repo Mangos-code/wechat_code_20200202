@@ -1,0 +1,14 @@
+<view style="display:flex;flex-direction:column;align-items:center;">
+
+  <!-- 用户图片和名称 -->
+  <view style="display:flex;flex-direction:column;">
+    <image src="/images/list/user.jpg" class="user_image"></image>
+    <text style="color:#aaa;margin-bottom:6px;"> Mangos </text>
+  </view>
+  <!-- 主题代码 -->
+  <view class="theme_title_block" wx:for="{{user_items}}">
+    <view class="theme_content">  <text>独立思考，表里如一    </text>  </view>
+    <view class="theme_reply">    <text>回复10万+</text><text>收藏10万+</text>  </view>
+  </view>
+
+</view>

@@ -1,0 +1,18 @@
+<!--list.wxml-->
+<view style="display:flex;flex-direction:column;">
+
+  <view class="listbody" wx:for="{{items}}">
+    <view><!--用户头像和用户名-->
+      <image src="/images/list/user.jpg" class="userimage"></image>
+      <text class="username">Mangos</text>
+    </view>
+
+    <view><text class="titlecontent">待到山花浪漫时，她在丛中笑</text></view>
+
+    <view class="replynumnode"><!--回复数量和节点-->
+      <text >10条回复</text>
+      <text >回复</text>
+    </view>
+  </view>
+
+</view>

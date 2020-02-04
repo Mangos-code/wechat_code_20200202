@@ -1,0 +1,18 @@
+<!--theme.wxml-->
+<view style="display:flex;flex-direction:column;">
+
+  <view class="theme_body" wx:for="{{theme_items}}" catchtap="onTouch" id="1">
+    <view class="theme_title_block">
+      <view class="theme_title">  <text>我生有涯愿无尽</text>  </view>
+      <view class="theme_authur">  <text>Mangos</text>  </view>
+      <view class="theme_content">  <text>我生有涯愿无尽，心期填海力移山</text>  </view>
+      <view class="theme_reply">  <text>阅读99+</text><text>在看99+</text>  </view>
+    </view>
+
+    <view class="theme_remark">
+      <view>  <text>梁漱溟(最佳回复)：</text> </view>
+      <view>  <text space="emsp">  我一生用心于人生问题与中国问题两大问题，为此而思考而行动，终其一生！</text>   </view>
+    </view>
+  </view>
+
+</view>
